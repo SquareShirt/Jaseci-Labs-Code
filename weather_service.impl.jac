@@ -3,7 +3,7 @@ impl WeatherApp.start {
     print("Type 'quit' to exit.");
 
     while True {
-        print("Which city do you live in?");
+        print("Which city do you want to check the weather conditions of?");
         city = input("> ");
 
         if city == "quit" {
