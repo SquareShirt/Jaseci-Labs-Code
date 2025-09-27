@@ -1,4 +1,5 @@
-Running jac weather_service.jac will ask you the city whose weather conditions you want to find out.
+Running jac weather_service.jac in your virtual environment with the google api inputed, 
+will ask you the city whose weather conditions you want to find out.
 You can type "quit" to exit the program.
 
 Running jac guess_game5.jac gives this output in quotation marks, "Too low!
