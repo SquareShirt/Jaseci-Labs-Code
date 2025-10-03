@@ -1,8 +1,8 @@
-WORK FOR ASSIGNMENT 1: Running jac weather_service.jac in your virtual environment with the google api inputed, 
+FOR ASSIGNMENT 1: Running jac weather_service.jac in your virtual environment with the google api inputed, 
 will ask you the city whose weather conditions you want to find out.
 You can type "quit" to exit the program.
 
-WORK FOR ASSIGNEMENT 1 - SECOND PROJECT: Running jac movie_and_book_recommender.jac will get the user an app that can give them
+FOR ASSIGNEMENT 1 - SECOND PROJECT: Running jac movie_and_book_recommender.jac will get the user an app that can give them
 book and movie recommendations according to the information they enter when prompted.
 
 
