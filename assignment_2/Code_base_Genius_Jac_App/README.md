@@ -1,1 +1,37 @@
 
+<!-- Setup Instructions -->
+Follow the steps below to set up and run the Code_base_Genius_Jac_App
+
+<!-- 1. Clone this repository -->
+git clone https://github.com/<your-username>/Code_base_Genius_Jac_App.git
+cd Code_base_Genius_Jac_App
+
+<!-- 2. Create and activate a virtual environment -->
+python3 -m venv .venv
+source .venv/bin/activate   # On Windows use: .venv\Scripts\activate
+
+<!-- 3. Install dependencies -->
+You can either install directly:
+pip install -U pip
+pip install -U jaclang byllm jac-cloud streamlit python-dotenv fastapi uvicorn
+pip install google-generativeai
+
+Or use the provided requirements file:
+pip install -r requirements.txt
+
+<!-- 4. Create a .env file inside the backend/ folder: -->
+touch backend/.env
+
+Then add your Gemini API key,GITHUB_TOKEN, and REPO_URL=https://github.com/openai/openai-python.git:
+GOOGLE_API_KEY=your_google_gemini_api_key_here
+GITHUB_TOKEN=your_github_token_here
+REPO_URL=https://github.com/openai/openai-python.git
+
+<!-- 5. From inside your backend folder -->
+cd backend
+./run_backend.sh
+this runs the file that starts the app
+
+<!-- 6. Then you run your frontend while the backend is also running -->
+cd ../frontend
+streamlit run app.py
