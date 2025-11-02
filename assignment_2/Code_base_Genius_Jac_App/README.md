@@ -1,4 +1,3 @@
-
 <!-- Setup Instructions -->
 Follow the steps below to set up and run the Code_base_Genius_Jac_App
 
@@ -34,4 +33,5 @@ this runs the file that starts the app
 
 <!-- 6. Then you run your frontend while the backend is also running -->
 cd ../frontend
+source ../.venv/bin/activate
 streamlit run app.py
