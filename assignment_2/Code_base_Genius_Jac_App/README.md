@@ -2,7 +2,7 @@
 Follow the steps below to set up and run the Code_base_Genius_Jac_App
 
 <!-- 1. Clone this repository -->
-git clone https://github.com/<your-username>/Code_base_Genius_Jac_App.git
+git clone https://github.com/<your-username>/Jaseci-Labs-Code.git
 cd Code_base_Genius_Jac_App
 
 <!-- 2. Create and activate a virtual environment -->
@@ -31,7 +31,8 @@ cd backend
 ./run_backend.sh
 this runs the file that starts the app
 
-<!-- 6. Then you run your frontend while the backend is also running -->
-cd ../frontend
+<!-- 6. Open a new terminal while the backend is running -->
+cd frontend
+<!-- 7. Activate your virtual environment inside your frontend folder then run your app -->
 source ../.venv/bin/activate
 streamlit run app.py
