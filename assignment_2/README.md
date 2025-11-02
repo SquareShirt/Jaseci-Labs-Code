@@ -1,1 +1,1 @@
-Inside this folder we find a folder called Code_base_Genius_Jac_App. Code_base_Genius_Jac_App holds the files that run the app built for assignment 2. There is also a pdf showing the frontend app as it was running on my computer.
+Inside this folder we find a folder called Code_base_Genius_Jac_App. Code_base_Genius_Jac_App is an app that takes a github repository url and gives back to the user a summary in text and diagrams of what the repository is about. There is also a pdf showing the frontend app as it was running on my computer.
