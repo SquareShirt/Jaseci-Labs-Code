@@ -2,8 +2,8 @@
 Follow the steps below to set up and run the Code_base_Genius_Jac_App
 
 <!-- 1. Clone this repository -->
-git clone https://github.com/<your-username>/Code_base_Genius_Jac_App.git
-cd Code_base_Genius_Jac_App
+git clone https://github.com/<your-username>/Jaseci-Labs-Code.git
+cd assignment2/Code_base_Genius_Jac_App
 
 <!-- 2. Create and activate a virtual environment -->
 python3 -m venv .venv
