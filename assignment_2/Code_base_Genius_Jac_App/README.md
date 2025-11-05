@@ -28,9 +28,12 @@ GITHUB_TOKEN=your_github_token_here
 REPO_URL=https://github.com/openai/openai-python.git
 
 <!-- 5. From inside your backend folder -->
+<!-- You will change to the backend folder -->
 cd backend
+<!-- and run a command to give your shell file permission to execute your backend -->
+chmod +x run_backend.sh
+<!-- run your shell file -->
 ./run_backend.sh
-this runs the file that starts the app
 
 <!-- 6. Open a new terminal while the backend is running -->
 cd frontend
