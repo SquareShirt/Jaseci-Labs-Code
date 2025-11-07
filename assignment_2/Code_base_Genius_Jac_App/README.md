@@ -27,11 +27,10 @@ pip install -r requirements.txt
 
 touch backend/.env
 
-<!-- Then add your Gemini API key,GITHUB_TOKEN, and REPO_URL=https://github.com/openai/openai-python.git: -->
+<!-- Then add your Gemini API key and GITHUB_TOKEN -->
 
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 GITHUB_TOKEN=your_github_token_here
-REPO_URL=https://github.com/openai/openai-python.git
 
 <!-- 5. Change to the backend folder  -->
 
@@ -55,4 +54,7 @@ If the terminal opens showing the backend folder.
 <!-- 7. Activate your virtual environment inside your frontend folder then run your app -->
 
 source ../.venv/bin/activate
+
+<!-- run the frontend app -->
+
 streamlit run app.py
